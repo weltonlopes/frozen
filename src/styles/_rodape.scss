@@ -1,0 +1,31 @@
+.rodape {
+    background-color: #fff !important;
+
+    &__logo {
+        display: flex;
+        img {
+            max-width: 80px;
+            margin: 0 auto;
+        }
+    }
+
+    &__sobre {
+        text-align: center;
+        &__item {
+            display: inline-block;
+            padding: 0 8px 4px 12px;
+        }
+    }
+
+    &__legais {
+        text-align: center;
+        &__item {
+            display: inline-block;
+            padding: 0 8px 4px 12px;
+        }
+    }
+
+    &__copyright {
+        text-align: center;
+    }
+}

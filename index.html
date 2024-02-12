@@ -10,146 +10,238 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="cabecalho">
         <img src="./dist/images/nav/disney_logo_dark@2x-45d70f7dd57b.png" alt="Logo da Disney">
-        <ul class="header__nav">
-            <li class="header__nav__item">
-                <a class="header__nav__item__link texto" href="#">Início</a>
+        <ul class="cabecalho__nav">
+            <li class="cabecalho__nav__item">
+                <a class="cabecalho__nav__item__link texto" href="#">Início</a>
             </li>
-            <li class="header__nav__item header__nav__item--selecionado">
-                <a class="header__nav__item__link texto" href="#">Descobrir</a>
+            <li class="cabecalho__nav__item cabecalho__nav__item--selecionado">
+                <a class="cabecalho__nav__item__link texto" href="#">Descobrir</a>
             </li>
-            <li class="header__nav__item">
-                <a class="header__nav__item__link texto" href="#">Personagens</a>
+            <li class="cabecalho__nav__item">
+                <a class="cabecalho__nav__item__link texto" href="#">Personagens</a>
             </li>
-            <li class="header__nav__item">
-                <a class="header__nav__item__link texto" href="#">Filmes e curtas</a>
+            <li class="cabecalho__nav__item">
+                <a class="cabecalho__nav__item__link texto" href="#">Filmes e curtas</a>
             </li>
-            <li class="header__nav__item">
-                <a class="header__nav__item__link texto" href="#">Mais Frozen</a>
+            <li class="cabecalho__nav__item">
+                <a class="cabecalho__nav__item__link texto" href="#">Mais Frozen</a>
             </li>
         </ul>
-        <form class="header__procurar">
+        <form class="cabecalho__procurar">
             <input type="text" placeholder="Procurar">
             <button><img src="src/images/nav/inc-search-input-icon.svg" alt=""></button>
         </form>
     </header>
-    <div class="container">
-        <section class="hero">
-            <div class="hero__conteudo">
-                <div class="hero__conteudo__corpo">
-                    <div class="hero__conteudo__corpo__marca">
-                        <img src="./dist/images/disneyplus_logo.png" alt="Disney+ logo">
-                    </div>
-                    <p class="texto-branco">Veja seus filmes favoritos da Frozen e curtas na Disney+, a casa da franquia Frozen.</p>
-                    <a class="button" role="button" href="#" >
-                        <!-- https://www.disneyplus.com/franchise/frozen?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-Disney-Frozen-EN-HomeScreenBanner-Frozen10-NA -->
-                        Assista agora
-                    </a>
+    <section class="hero">
+        <div class="hero__conteudo">
+            <div class="hero__conteudo__corpo">
+                <div class="hero__conteudo__corpo__marca">
+                    <img src="./dist/images/disneyplus_logo.png" alt="Disney+ logo">
                 </div>
+                <p class="texto-branco">Veja seus filmes favoritos da Frozen e curtas na Disney+, a casa da franquia Frozen.</p>
+                <a class="button" role="button" href="#" >
+                    <!-- https://www.disneyplus.com/franchise/frozen?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-Disney-Frozen-EN-HomeScreenBanner-Frozen10-NA -->
+                    Assista agora
+                </a>
             </div>
-        </section>
-        <section class="descobrir">
-            <h1 class="titulo">Descobrir os congelados da Disney</h1>
-            <div class="descobrir__cartoes">
-                <div class="descobrir__cartoes__cartao">
-                    <div class="descobrir__cartoes__cartao__cabeca">
-                        <img src="src/images/descobrir/frozenpodcast.jpeg" alt="Anna e Elsa">
-                    </div>
-                    <div class="descobrir__cartoes__cartao__corpo">
-                        <h2 class="subtitulo">O mais novo Podcast da Disney Frozen: <i>Forces of Nature</i></h2>
-                        <p class="texto">
-                            A Disney Publishing Worldwide está animada para lançar seu mais novo e primeiríssimo Podcast da Disney Frozen - Uma historia original que extende as historias dos filmes amados, completa com novos personagens e uma aventura em audio original.
-                        </p>
-                        <a href="#">Saiba mais</a>
-                    </div>
+        </div>
+    </section>
+    <section class="descobrir container">
+        <h1 class="titulo">Descobrir os congelados da Disney</h1>
+        <div class="descobrir__cartoes">
+            <div class="descobrir__cartoes__cartao">
+                <div class="descobrir__cartoes__cartao__cabeca">
+                    <img src="src/images/descobrir/frozenpodcast.jpeg" alt="Anna e Elsa">
                 </div>
-                <div class="descobrir__cartoes__cartao">
-                    <div class="descobrir__cartoes__cartao__cabeca">
-                        <img src="src/images/descobrir/frozenbroadwayto.jpeg" alt="Silhueta da Elsa com muito gelo em volta">
-                    </div>
-                    <div class="descobrir__cartoes__cartao__corpo">
-                        <h2 class="subtitulo">A magia da Brodway em turnê com Frozen</h2>
-                        <p class="texto">
-                            Frozen, um musical de Tony®-nominated, é uma experiência teatral inesquecível, cheia de efeitos especials sensacionais, roupas e fantasias maravilhosas e performances de cair o queixo.
-                        </p>
-                        <a href="#">Saiba mais</a>
-                    </div>
-                </div>
-                <div class="descobrir__cartoes__cartao">
-                    <div class="descobrir__cartoes__cartao__cabeca">
-                        <img src="src/images/descobrir/parkpromo.jpeg" alt="Parque da Frozen em Hong Kong">
-                    </div>
-                    <div class="descobrir__cartoes__cartao__corpo">
-                        <h2 class="subtitulo">Visite Arendelle no Resort da Disneyland em Hong Kong</h2>
-                        <p class="texto">
-                            Faça um jornada à terra da Frozen, a primeira do mundo no Resort da Disneyland em Hong Kong para encontrar Anna, Elsa e vários outros personagens; curta duas atrações excitantes e entre em uma imersão nas cenas de Frozen e Frozen 2 da Disney.
-                        </p>
-                        <a href="#">Saiba mais</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="personagens">
-            <h1 class="titulo">Personagens</h1>
-            <ul class="personagens__slider">
-                <div class="slider-icon left">
-                    <span><</span>
-                </div>
-                <li class="personagens__slider__pagina" aria-hidden="false">
-                    <ul class="personagens__slider__pagina__lista">
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3>Elsa</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3>Elsa</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3>Elsa</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3>Elsa</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3>Elsa</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3>Elsa</h3>
-                        </li>
-                    </ul>
-                </li>
-                <div class="slider-icon right">
-                    <span>></span>
-                </div>
-            </ul>
-            <div class="personagens__informacao">
-                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                <div class="personagens__informacao__detalhes">
-                    <h2 class="subtitulo">Elsa</h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                <div class="descobrir__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">O mais novo Podcast da Disney Frozen: <i>Forces of Nature</i></h2>
+                    <p class="texto">
+                        A Disney Publishing Worldwide está animada para lançar seu mais novo e primeiríssimo Podcast da Disney Frozen - Uma historia original que extende as historias dos filmes amados, completa com novos personagens e uma aventura em audio original.
                     </p>
+                    <a href="#">Saiba mais</a>
                 </div>
             </div>
-        </section>
+            <div class="descobrir__cartoes__cartao">
+                <div class="descobrir__cartoes__cartao__cabeca">
+                    <img src="src/images/descobrir/frozenbroadwayto.jpeg" alt="Silhueta da Elsa com muito gelo em volta">
+                </div>
+                <div class="descobrir__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">A magia da Brodway em turnê com Frozen</h2>
+                    <p class="texto">
+                        Frozen, um musical de Tony®-nominated, é uma experiência teatral inesquecível, cheia de efeitos especials sensacionais, roupas e fantasias maravilhosas e performances de cair o queixo.
+                    </p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </div>
+            <div class="descobrir__cartoes__cartao">
+                <div class="descobrir__cartoes__cartao__cabeca">
+                    <img src="src/images/descobrir/parkpromo.jpeg" alt="Parque da Frozen em Hong Kong">
+                </div>
+                <div class="descobrir__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">Visite Arendelle no Resort da Disneyland em Hong Kong</h2>
+                    <p class="texto">
+                        Faça um jornada à terra da Frozen, a primeira do mundo no Resort da Disneyland em Hong Kong para encontrar Anna, Elsa e vários outros personagens; curta duas atrações excitantes e entre em uma imersão nas cenas de Frozen e Frozen 2 da Disney.
+                    </p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="personagens container">
+        <h1 class="titulo">Personagens</h1>
+        <ul class="personagens__slider">
+            <div class="slider-icon left">
+                <span><</span>
+            </div>
+            <li class="personagens__slider__pagina" aria-hidden="false">
+                <ul class="personagens__slider__pagina__lista">
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3>Elsa</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3>Elsa</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3>Elsa</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3>Elsa</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3>Elsa</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3>Elsa</h3>
+                    </li>
+                </ul>
+            </li>
+            <div class="slider-icon right">
+                <span>></span>
+            </div>
+        </ul>
+        <div class="personagens__informacao">
+            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+            <div class="personagens__informacao__detalhes">
+                <h2 class="subtitulo">Elsa</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="filmes_e_curtas container">
+        <h1 class="titulo">Filmes e Curtas</h1>
+        <div class="filmes_e_curtas__cartoes">
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <img src="https://via.placeholder.com/180x240" alt="">
+                <h2 class="subtitulo">Nome do filme</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <img src="https://via.placeholder.com/180x240" alt="">
+                <h2 class="subtitulo">Nome do filme</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <img src="https://via.placeholder.com/180x240" alt="">
+                <h2 class="subtitulo">Nome do filme</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <img src="https://via.placeholder.com/180x240" alt="">
+                <h2 class="subtitulo">Nome do filme</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <img src="https://via.placeholder.com/180x240" alt="">
+                <h2 class="subtitulo">Nome do filme</h2>
+            </div>
+        </div>
+    </section>
+    <section class="mais_frozen container">
+        <h1 class="titulo">Mais Frozen</h1>
+        <div class="mais_frozen__cartoes">
+            <div class="mais_frozen__cartoes__cartao">
+                <img src="https://via.placeholder.com/240x180" alt="">
+                <h2 class="subtitulo">titulo</h2>
+                <p class="texto">
+                    paragrafo
+                </p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="mais_frozen__cartoes__cartao">
+                <img src="https://via.placeholder.com/240x180" alt="">
+                <h2 class="subtitulo">titulo</h2>
+                <p class="texto">
+                    paragrafo
+                </p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="mais_frozen__cartoes__cartao">
+                <img src="https://via.placeholder.com/240x180" alt="">
+                <h2 class="subtitulo">titulo</h2>
+                <p class="texto">
+                    paragrafo
+                </p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="mais_frozen__cartoes__cartao">
+                <img src="https://via.placeholder.com/240x180" alt="">
+                <h2 class="subtitulo">titulo</h2>
+                <p class="texto">
+                    paragrafo
+                </p>
+                <a href="#">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <div class="social container">
+        <ul class="social__links">
+            <li class="social__links__link"><img src="src/images/facebook.png" alt=""></li>
+            <li class="social__links__link"><img src="src/images/instagram.png" alt=""></li>
+            <li class="social__links__link"><img src="src/images/youtube.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="rodape container">
+        <div class="rodape__logo">
+            <img src="src/images/nav/disney_logo_dark@2x-45d70f7dd57b.png" alt="">
+        </div>
+        <ul class="rodape__sobre">
+            <li class="rodape__sobre__item">sobre</li>
+            <li class="rodape__sobre__item">sobre</li>
+            <li class="rodape__sobre__item">sobre</li>
+            <li class="rodape__sobre__item">sobre</li>
+            <li class="rodape__sobre__item">sobre</li>
+            <li class="rodape__sobre__item">sobre</li>
+        </ul>
+        <ul class="rodape__legais">
+            <li class="rodape__legais__item">termos de uso</li>
+            <li class="rodape__legais__item">termos de uso</li>
+            <li class="rodape__legais__item">termos de uso</li>
+            <li class="rodape__legais__item">termos de uso</li>
+            <li class="rodape__legais__item">termos de uso</li>
+            <li class="rodape__legais__item">termos de uso</li>
+            <li class="rodape__legais__item">termos de uso</li>
+        </ul>
+        <div class="rodape__copyright">
+            <p>blá blá blá</p>
+        </div>
     </div>
 </body>
 </html>

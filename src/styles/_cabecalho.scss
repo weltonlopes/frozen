@@ -1,6 +1,6 @@
 @use 'variaveis';
 
-.header {
+.cabecalho {
     display: grid;
     grid-template-columns: 20% 50% 30%;
     padding: 10px;
@@ -9,6 +9,7 @@
     left: 0;
     background-color: variaveis.$corSecundaria;
     align-items: center;
+    z-index: 1;
 
     img {
         max-width: 94px;

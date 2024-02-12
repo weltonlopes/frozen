@@ -1,9 +1,14 @@
 @use 'hero';
 @use 'fontes';
-@use 'header';
+@use 'cabecalho';
 @use 'variaveis';
 @use 'descobrir';
 @use 'personagens';
+@use 'filmes_e_curtas';
+@use 'mais_frozen';
+@use 'social';
+@use 'rodape';
+@use 'layout';
 
 * {
     margin: 0;
@@ -11,14 +16,6 @@
     box-sizing: border-box;
     list-style-type: none;
     list-style: none;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1600px;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    background-color: variaveis.$corPrimaria;
 }
 
 .slider-icon {

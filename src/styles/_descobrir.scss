@@ -2,7 +2,7 @@
 
     &__cartoes {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 5%;
         text-align: center;
 

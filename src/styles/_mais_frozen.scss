@@ -1,0 +1,6 @@
+.mais_frozen {
+    &__cartoes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

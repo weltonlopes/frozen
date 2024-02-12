@@ -1,0 +1,6 @@
+.filmes_e_curtas {
+    &__cartoes {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
