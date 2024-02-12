@@ -1,0 +1,32 @@
+.descobrir {
+
+    &__cartoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5%;
+        text-align: center;
+
+        &__cartao {
+
+            &__corpo {
+                padding: 30px;
+
+                p {
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+                    line-height: 20.8px;
+                }
+
+                a {
+                    color: #000;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

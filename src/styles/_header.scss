@@ -1,0 +1,78 @@
+@use 'variaveis';
+
+.header {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corSecundaria;
+    align-items: center;
+
+    img {
+        max-width: 94px;
+        margin-left: 20px;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 80px;
+
+        &__item {
+            padding: 10px;
+            list-style: none;
+            cursor: pointer;
+
+            &__link {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            &--selecionado {
+                background-color: #000;
+                border-radius: 18px;
+
+                a {
+                    color: variaveis.$corSecundaria;
+                }
+            }
+        }
+    }
+    
+    &__procurar {
+        display: flex;
+        vertical-align: center;
+        margin-right: 20px;
+
+        input {
+            width: 287px;
+            height: 40px;
+            padding: 10px;
+            background-color: #F5F5F5;
+            border: none;
+            border-left: 1px solid black;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            border-radius: 5px 0 0 5px;
+        }
+        button {
+            height: 40px;
+            background-color: #fff;
+            border: none;
+            border-right: 1px solid black;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            border-radius: 0 5px 5px 0;
+            padding: 0 10px;
+            
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

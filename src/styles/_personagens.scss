@@ -1,0 +1,64 @@
+.personagens {
+
+    &__slider {
+        
+        display: inline-flex;
+        align-items: center;
+        padding: 20px 10px;
+        &__pagina {
+
+            width: 100%;
+
+            &__lista {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                text-align: center;
+            }
+        }       
+
+        
+    }
+
+    .container-imagem {
+        position: relative;
+        overflow: hidden;
+        max-width: 210px;
+        border-radius: 100%;
+        cursor: pointer;
+        margin: 10px;
+
+        img {
+            max-width: 100%;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+            transform: scale(1.05);
+        }
+
+        :hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__informacao {
+        display: grid;
+        grid-template-columns: 30% 65%;
+        gap: 5%;
+        align-items: center;
+        margin: 0 6%;
+        padding-top: 32px;
+
+        img {
+            border-radius: 100%;
+        }
+
+        &__detalhes {
+            max-width: 640px;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+}
