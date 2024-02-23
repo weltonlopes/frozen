@@ -31,14 +31,9 @@
                 text-decoration: none;
                 text-transform: uppercase;
                 font-weight: bold;
-            }
 
-            &--selecionado {
-                background-color: #000;
-                border-radius: 18px;
-
-                a {
-                    color: variaveis.$corSecundaria;
+                &:hover {
+                    color: #000;
                 }
             }
         }
@@ -76,4 +71,8 @@
             }
         }
     }
+}
+
+.nav-pills .nav-link.active {
+    background-color: black;
 }

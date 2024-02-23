@@ -1,65 +1,119 @@
 .personagens {
 
     &__slider {
-        
-        display: inline-flex;
-        align-items: center;
+        position: relative;
+        max-width: 100%;
         padding: 20px 10px;
-        &__pagina {
+        margin: 0 auto;
 
-            width: 100%;
+        &__pagina {
+            display: flex;
+            overflow-x: hidden;
+            transition: all 0.5s;
 
             &__lista {
-                display: flex;
+                flex-shrink: 0;
+                display: none;
+                // flex-flow: row nowrap;
                 height: 100%;
                 width: 100%;
                 text-align: center;
             }
         }       
 
+        .container-imagem {
+            position: relative;
+            overflow: hidden;
+            max-width: 210px;
+            border-radius: 100%;
+            cursor: pointer;
+            margin: 10px;
+
+            img {
+                max-width: 100%;
+                -moz-transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+                transform: scale(1.05);
+            }
+
+            :hover {
+                transform: scale(1.1);
+            }
+
         
-    }
+    }       
+        .arrow-left,
+        .arrow-right {
+            display: inline-flex;
+            background-color: #FFF;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            align-content: center;
+            justify-content: center;
+            font-size: 33px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 2;
+            transition: opacity 333ms;
+            position: absolute;
+            top: 33%;
+            left: -15px;
+            right: auto;
 
-    .container-imagem {
-        position: relative;
-        overflow: hidden;
-        max-width: 210px;
-        border-radius: 100%;
-        cursor: pointer;
-        margin: 10px;
-
-        img {
-            max-width: 100%;
-            -moz-transition: all 0.5s;
-            -webkit-transition: all 0.5s;
-            transition: all 0.5s;
-            transform: scale(1.05);
+            span {
+                margin: auto 0;
+            }
+        
+            &:hover {
+                opacity: 0.6;
+            }
         }
 
-        :hover {
-            transform: scale(1.1);
+        .arrow-right {
+            left: auto;
+            right: -15px;
+        }
+
+        .desligado {
+            visibility: hidden;
         }
     }
 
     &__informacao {
-        display: grid;
-        grid-template-columns: 38% 62%;
-        align-items: center;
-        max-width: 924px;
-        margin: 0 auto;
-        padding-top: 32px;
 
-        img {
-            border-radius: 100%;
-        }
-
-        &__detalhes {
-            max-width: 510px;
-            width: 100%;
-
-            p {
-                margin-top: 20px;
+        &__item {
+            display: none;
+            grid-template-columns: 38% 60%;
+            gap: 2%;
+            align-items: center;
+            max-width: 924px;
+            margin: 0 auto;
+            padding-top: 32px;
+    
+            img {
+                border-radius: 100%;
+                max-width: 320px;
+                width: 100%;
+            }
+    
+            &__detalhes {
+                max-width: 510px;
+                width: 100%;
+    
+                p {
+                    margin-top: 20px;
+                }
             }
         }
     }
+}
+
+.atual {
+    display: flex;
+}
+
+.ativo {
+    display: grid;
 }

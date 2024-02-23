@@ -30,7 +30,7 @@
     font-weight: bold;
     cursor: pointer;
     z-index: 2;
-    position: relative;
+    // position: relative;
     transition: opacity 333ms;
 
     span {
@@ -43,9 +43,21 @@
 }
 
 .left {
-    left: 1.5%;
+    position: absolute;
+    left: 0;
+    right: auto;
 }
 
 .right {
-    right: 1.5%;
+    position: absolute;
+    right: auto;
+    left: 0;
+}
+
+.oculto {
+    display: none;
+}
+
+.div-scroll-spy {
+    background-color: variaveis.$corPrimaria;
 }
