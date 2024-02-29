@@ -9,3 +9,27 @@ body {
 .contentor {
     padding: 40px 80px;
 }
+
+.container-imagem {
+    position: relative;
+    overflow: hidden;
+    max-width: 210px;
+    cursor: pointer;
+    margin: 10px;
+
+    img {
+        max-width: 100%;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        transform: scale(1.05);
+    }
+
+    :hover {
+        transform: scale(1.1);
+    }
+}
+
+.arredondada {
+    border-radius: 100%;
+}

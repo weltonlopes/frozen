@@ -2,5 +2,11 @@
     &__cartoes {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        
+        &__cartao {
+            max-width: 300px;
+            margin-right: 24px;
+            
+        }
     }
 }

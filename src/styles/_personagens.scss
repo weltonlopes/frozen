@@ -19,30 +19,7 @@
                 width: 100%;
                 text-align: center;
             }
-        }       
-
-        .container-imagem {
-            position: relative;
-            overflow: hidden;
-            max-width: 210px;
-            border-radius: 100%;
-            cursor: pointer;
-            margin: 10px;
-
-            img {
-                max-width: 100%;
-                -moz-transition: all 0.5s;
-                -webkit-transition: all 0.5s;
-                transition: all 0.5s;
-                transform: scale(1.05);
-            }
-
-            :hover {
-                transform: scale(1.1);
-            }
-
-        
-    }       
+        }  
         .arrow-left,
         .arrow-right {
             display: inline-flex;
@@ -97,14 +74,17 @@
                 max-width: 320px;
                 width: 100%;
             }
+        }
     
-            &__detalhes {
-                max-width: 510px;
-                width: 100%;
-    
-                p {
-                    margin-top: 20px;
-                }
+        &__detalhes {
+            max-width: 510px;
+            width: 100%;
+
+            p {
+                margin-top: 20px;
+                line-height: 20.8px;
+                font-size: 16px;
+                font-weight: normal;
             }
         }
     }

@@ -2,5 +2,14 @@
     &__cartoes {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+
+        &__cartao {
+            max-width: 400px;
+
+            img {
+                max-width: 100%;
+            }
+        }
     }
 }

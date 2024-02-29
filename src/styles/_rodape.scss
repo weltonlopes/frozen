@@ -1,5 +1,6 @@
 .rodape {
     background-color: #fff !important;
+    font-size: 0.75em;
 
     &__logo {
         display: flex;
@@ -22,6 +23,7 @@
         &__item {
             display: inline-block;
             padding: 0 8px 4px 12px;
+            font-weight: bold;
         }
     }
 
