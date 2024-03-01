@@ -12,21 +12,21 @@
 <body>
     <header class="cabecalho" id="cabecalho">
         <img src="./dist/images/nav/disney_logo_dark@2x-45d70f7dd57b.png" alt="Logo da Disney">
-        <ul class="cabecalho__nav nav nav-pills">
-            <li class="cabecalho__nav__item nav-item">
-                <a class="cabecalho__nav__item__link texto nav-link active" href="#hero">Início</a>
+        <ul class="cabecalho__nav">
+            <li class="cabecalho__nav__item">
+                <a class="cabecalho__nav__item__link texto" href="#hero">Início</a>
             </li>
             <li class="cabecalho__nav__item">
-                <a class="cabecalho__nav__item__link texto nav-link" href="#descobrir">Descobrir</a>
+                <a class="cabecalho__nav__item__link texto active" href="#descobrir">Descobrir</a>
             </li>
             <li class="cabecalho__nav__item">
-                <a class="cabecalho__nav__item__link texto nav-link" href="#personagens">Personagens</a>
+                <a class="cabecalho__nav__item__link texto" href="#personagens">Personagens</a>
             </li>
             <li class="cabecalho__nav__item">
-                <a class="cabecalho__nav__item__link texto nav-link" href="#filmes_e_curtas">Filmes e curtas</a>
+                <a class="cabecalho__nav__item__link texto" href="#filmes_e_curtas">Filmes e curtas</a>
             </li>
             <li class="cabecalho__nav__item">
-                <a class="cabecalho__nav__item__link texto nav-link" href="#mais_frozen">Mais Frozen</a>
+                <a class="cabecalho__nav__item__link texto" href="#mais_frozen">Mais Frozen</a>
             </li>
         </ul>
         <form class="cabecalho__procurar">
@@ -34,420 +34,434 @@
             <button><img src="src/images/nav/inc-search-input-icon.svg" alt=""></button>
         </form>
     </header>
-    <div class="div-scroll-spy" data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
-        <section class="hero" id="hero">
-            <div class="hero__conteudo">
-                <div class="hero__conteudo__corpo">
-                    <div class="hero__conteudo__corpo__marca">
-                        <img src="./dist/images/disneyplus_logo.png" alt="Disney+ logo">
-                    </div>
-                    <p class="texto-branco">Veja seus filmes favoritos da Frozen e curtas na Disney+, a casa da franquia Frozen.</p>
-                    <a class="button" role="button" href="#" >
-                        <!-- https://www.disneyplus.com/franchise/frozen?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-Disney-Frozen-EN-HomeScreenBanner-Frozen10-NA -->
-                        Assista agora
-                    </a>
+    <section class="hero" id="hero">
+        <div class="hero__conteudo">
+            <div class="hero__conteudo__corpo">
+                <div class="hero__conteudo__corpo__marca">
+                    <img src="./dist/images/disneyplus_logo.png" alt="Disney+ logo">
+                </div>
+                <p class="texto-branco">Veja seus filmes favoritos da Frozen e curtas na Disney+, a casa da franquia Frozen.</p>
+                <a class="button" role="button" href="#" >
+                    <!-- https://www.disneyplus.com/franchise/frozen?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-Disney-Frozen-EN-HomeScreenBanner-Frozen10-NA -->
+                    Assista agora
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="descobrir contentor" id="descobrir">
+        <h1 class="titulo">Descobrir os congelados da Disney</h1>
+        <div class="descobrir__cartoes">
+            <div class="descobrir__cartoes__cartao">
+                <div class="descobrir__cartoes__cartao__cabeca">
+                    <img src="src/images/descobrir/frozenpodcast.jpeg" alt="Anna e Elsa">
+                </div>
+                <div class="descobrir__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">O mais novo Podcast da Disney Frozen: <i>Forces of Nature</i></h2>
+                    <p class="texto">
+                        A Disney Publishing Worldwide está animada para lançar seu mais novo e primeiríssimo Podcast da Disney Frozen - Uma historia original que extende as historias dos filmes amados, completa com novos personagens e uma aventura em audio original.
+                    </p>
+                    <a href="#">Saiba mais</a>
                 </div>
             </div>
-        </section>
-        <section class="descobrir contentor" id="descobrir">
-            <h1 class="titulo">Descobrir os congelados da Disney</h1>
-            <div class="descobrir__cartoes">
-                <div class="descobrir__cartoes__cartao">
-                    <div class="descobrir__cartoes__cartao__cabeca">
-                        <img src="src/images/descobrir/frozenpodcast.jpeg" alt="Anna e Elsa">
-                    </div>
-                    <div class="descobrir__cartoes__cartao__corpo">
-                        <h2 class="subtitulo">O mais novo Podcast da Disney Frozen: <i>Forces of Nature</i></h2>
-                        <p class="texto">
-                            A Disney Publishing Worldwide está animada para lançar seu mais novo e primeiríssimo Podcast da Disney Frozen - Uma historia original que extende as historias dos filmes amados, completa com novos personagens e uma aventura em audio original.
-                        </p>
-                        <a href="#">Saiba mais</a>
-                    </div>
+            <div class="descobrir__cartoes__cartao">
+                <div class="descobrir__cartoes__cartao__cabeca">
+                    <img src="src/images/descobrir/frozenbroadwayto.jpeg" alt="Silhueta da Elsa com muito gelo em volta">
                 </div>
-                <div class="descobrir__cartoes__cartao">
-                    <div class="descobrir__cartoes__cartao__cabeca">
-                        <img src="src/images/descobrir/frozenbroadwayto.jpeg" alt="Silhueta da Elsa com muito gelo em volta">
-                    </div>
-                    <div class="descobrir__cartoes__cartao__corpo">
-                        <h2 class="subtitulo">A magia da Brodway em turnê com Frozen</h2>
-                        <p class="texto">
-                            Frozen, um musical de Tony®-nominated, é uma experiência teatral inesquecível, cheia de efeitos especials sensacionais, roupas e fantasias maravilhosas e performances de cair o queixo.
-                        </p>
-                        <a href="#">Saiba mais</a>
-                    </div>
-                </div>
-                <div class="descobrir__cartoes__cartao">
-                    <div class="descobrir__cartoes__cartao__cabeca">
-                        <img src="src/images/descobrir/parkpromo.jpeg" alt="Parque da Frozen em Hong Kong">
-                    </div>
-                    <div class="descobrir__cartoes__cartao__corpo">
-                        <h2 class="subtitulo">Visite Arendelle no Resort da Disneyland em Hong Kong</h2>
-                        <p class="texto">
-                            Faça um jornada à terra da Frozen, a primeira do mundo no Resort da Disneyland em Hong Kong para encontrar Anna, Elsa e vários outros personagens; curta duas atrações excitantes e entre em uma imersão nas cenas de Frozen e Frozen 2 da Disney.
-                        </p>
-                        <a href="#">Saiba mais</a>
-                    </div>
+                <div class="descobrir__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">A magia da Brodway em turnê com Frozen</h2>
+                    <p class="texto">
+                        Frozen, um musical de Tony®-nominated, é uma experiência teatral inesquecível, cheia de efeitos especials sensacionais, roupas e fantasias maravilhosas e performances de cair o queixo.
+                    </p>
+                    <a href="#">Saiba mais</a>
                 </div>
             </div>
-        </section>
-        <section class="personagens contentor" id="personagens">
-            <h1 class="titulo">Personagens</h1>
-            <ul class="personagens__slider">
-                <div class="controle arrow-left desligado">
-                    <span><</span>
+            <div class="descobrir__cartoes__cartao">
+                <div class="descobrir__cartoes__cartao__cabeca">
+                    <img src="src/images/descobrir/parkpromo.jpeg" alt="Parque da Frozen em Hong Kong">
                 </div>
-                <div class="controle arrow-right">
-                    <span>></span>
-                </div>
-                <div class="personagens__slider__pagina">
-                    <ul class="personagens__slider__pagina__lista atual">
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Elsa</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_anna_.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Anna</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_kristoff.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Kristoff</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_olaf.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Olaf</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_sven.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Sven</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_hans.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Hans</h3>
-                        </li>
-                    </ul>
-                    <ul class="personagens__slider__pagina__lista">
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_oaken.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Oaken</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_dukeofweselton.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Duke of Weselton</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_marshmallow.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Marshmallow</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_lieutenantdestinmattias.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Lieutenant Destin Mattias</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_bruni.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Bruni</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_honeymaren.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Honeymaren</h3>
-                        </li>
-                    </ul>
-                    <ul class="personagens__slider__pagina__lista">
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_ryder.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Ryder</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Snowgies</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item desligado">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Snowgies</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item desligado">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Snowgies</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item desligado">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Snowgies</h3>
-                        </li>
-                        <li class="personagens__slider__pagina__lista__item desligado">
-                            <div class="container-imagem arredondada">
-                                <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
-                            </div>
-                            <h3 class="subtitulo">Snowgies</h3>
-                        </li>
-                    </ul>
-                </div>
-            </ul>
-            <ul class="personagens__informacao">
-                <li class="personagens__informacao__item ativo">
-                    <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Elsa</h2>
-                        <p class="texto">
-                            Elsa é uma personagem zica - magica e arretada. Agora completamente em controle dos seus poderes, ela é confidente, resolvida e calorosa. Elsa cuida dos espiritos da natureza e aceita seu papel como Rainha da Neve, sabendo que essa é quem ela deveria ser.
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_anna_.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Anna</h2>
-                        <p class="texto">
-                            Espirituosa e amorosa. Anna dá seu coração de grátis para quem ela gosta. Sempre a otimista, ela se sente orgulhosa de ser Rainha de Arendelle e sempre tenta dar o seu melhor para o reino e as pessoas que ela ama.
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_kristoff.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Kristoff</h2>
-                        <p class="texto">
-                            Um homem bruto das montanhas, colhedor e comerciante de gelo, Kristoff estava um pouco solitário com seu parceirinho Sven, a rena, até que ele encontra Anna. Agora como Mestre e Entregador do Gelo oficial de Arendelle, Kristoff encontrou o amor, com Anna e sua nova familia: Elsa, Olaf e Sven.
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_olaf.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Olaf</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_sven.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Sven</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_hans.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Hans</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_oaken.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Oaken</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_dukeofweselton.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Duke of Weselton</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_marshmallow.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Marshmallow</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_lieutenantdestinmattias.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Lieutenant Destin Mattias</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_bruni.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Bruni</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_honeymaren.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Honeymaren</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_ryder.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Ryder</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-                <li class="personagens__informacao__item">
-                    <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
-                    <div class="personagens__informacao__detalhes">
-                        <h2 class="subtitulo">Snowgies</h2>
-                        <p class="texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="filmes_e_curtas contentor" id="filmes_e_curtas">
-            <h1 class="titulo">Filmes e Curtas</h1>
-            <div class="filmes_e_curtas__cartoes">
-                <div class="filmes_e_curtas__cartoes__cartao">
-                    <div class="container-imagem">
-                        <img src="src/images/movies_shorts/frozen.jpeg" alt="">
-                    </div>
-                    <h2 class="subtitulo">Frozen</h2>
-                </div>
-                <div class="filmes_e_curtas__cartoes__cartao">
-                    <div class="container-imagem">
-                        <img src="src/images/movies_shorts/frozensa.jpeg" alt="">
-                    </div>
-                    <h2 class="subtitulo">Frozen (Edição cante junto)</h2>
-                </div>
-                <div class="filmes_e_curtas__cartoes__cartao">
-                    <div class="container-imagem">
-                        <img src="src/images/movies_shorts/shortscollection.jpeg" alt="">
-                    </div>
-                    <h2 class="subtitulo">Coleção de shorts do estúdio Walt Disney Animation</h2>
-                </div>
-                <div class="filmes_e_curtas__cartoes__cartao">
-                    <div class="container-imagem">
-                        <img src="src/images/movies_shorts/olafsfrozenadventure.jpeg" alt="">
-                    </div>
-                    <h2 class="subtitulo">A aventura de Olaf</h2>
-                </div>
-                <div class="filmes_e_curtas__cartoes__cartao">
-                    <div class="container-imagem">
-                        <img src="src/images/movies_shorts/frozen2.jpeg" alt="">
-                    </div>
-                    <h2 class="subtitulo">Frozen 2</h2>
+                <div class="descobrir__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">Visite Arendelle no Resort da Disneyland em Hong Kong</h2>
+                    <p class="texto">
+                        Faça um jornada à terra da Frozen, a primeira do mundo no Resort da Disneyland em Hong Kong para encontrar Anna, Elsa e vários outros personagens; curta duas atrações excitantes e entre em uma imersão nas cenas de Frozen e Frozen 2 da Disney.
+                    </p>
+                    <a href="#">Saiba mais</a>
                 </div>
             </div>
-        </section>
-        <section class="mais_frozen contentor" id="mais_frozen">
-            <h1 class="titulo">Mais Frozen</h1>
-            <div class="mais_frozen__cartoes">
-                <div class="mais_frozen__cartoes__cartao">
+        </div>
+    </section>
+    <section class="personagens contentor" id="personagens">
+        <h1 class="titulo">Personagens</h1>
+        <ul class="personagens__slider">
+            <div class="controle arrow-left desligado">
+                <span><</span>
+            </div>
+            <div class="controle arrow-right">
+                <span>></span>
+            </div>
+            <div class="personagens__slider__pagina">
+                <ul class="personagens__slider__pagina__lista atual">
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Elsa</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_anna_.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Anna</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_kristoff.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Kristoff</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_olaf.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Olaf</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_sven.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Sven</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_hans.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Hans</h3>
+                    </li>
+                </ul>
+                <ul class="personagens__slider__pagina__lista">
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_oaken.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Oaken</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_dukeofweselton.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Duke of Weselton</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_marshmallow.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Marshmallow</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_lieutenantdestinmattias.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Lieutenant Destin Mattias</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_bruni.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Bruni</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_honeymaren.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Honeymaren</h3>
+                    </li>
+                </ul>
+                <ul class="personagens__slider__pagina__lista">
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_ryder.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Ryder</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Snowgies</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item desligado">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Snowgies</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item desligado">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Snowgies</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item desligado">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Snowgies</h3>
+                    </li>
+                    <li class="personagens__slider__pagina__lista__item desligado">
+                        <div class="container-imagem arredondada">
+                            <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
+                        </div>
+                        <h3 class="subtitulo">Snowgies</h3>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+        <ul class="personagens__informacao">
+            <li class="personagens__informacao__item ativo">
+                <img src="src/images/personagens/ct_frozen_elsa.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Elsa</h2>
+                    <p class="texto">
+                        Elsa é uma personagem zica - magica e arretada. Agora completamente em controle dos seus poderes, ela é confidente, resolvida e calorosa. Elsa cuida dos espiritos da natureza e aceita seu papel como Rainha da Neve, sabendo que essa é quem ela deveria ser.
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_anna_.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Anna</h2>
+                    <p class="texto">
+                        Espirituosa e amorosa. Anna dá seu coração de grátis para quem ela gosta. Sempre a otimista, ela se sente orgulhosa de ser Rainha de Arendelle e sempre tenta dar o seu melhor para o reino e as pessoas que ela ama.
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_kristoff.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Kristoff</h2>
+                    <p class="texto">
+                        Um homem bruto das montanhas, colhedor e comerciante de gelo, Kristoff estava um pouco solitário com seu parceirinho Sven, a rena, até que ele encontra Anna. Agora como Mestre e Entregador do Gelo oficial de Arendelle, Kristoff encontrou o amor, com Anna e sua nova familia: Elsa, Olaf e Sven.
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_olaf.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Olaf</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_sven.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Sven</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_hans.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Hans</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_oaken.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Oaken</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_dukeofweselton.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Duke of Weselton</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_marshmallow.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Marshmallow</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_lieutenantdestinmattias.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Lieutenant Destin Mattias</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_bruni.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Bruni</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_honeymaren.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Honeymaren</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_ryder.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Ryder</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+            <li class="personagens__informacao__item">
+                <img src="src/images/personagens/ct_frozen_snowgies.jpeg" alt="">
+                <div class="personagens__informacao__detalhes">
+                    <h2 class="subtitulo">Snowgies</h2>
+                    <p class="texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quisquam asperiores, quod repellendus iusto neque id rem possimus culpa, illum excepturi corporis maiores vel dicta quibusdam a adipisci delectus voluptatem!
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="filmes_e_curtas contentor" id="filmes_e_curtas">
+        <h1 class="titulo">Filmes e Curtas</h1>
+        <div class="filmes_e_curtas__cartoes">
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <div class="container-imagem">
+                    <img src="src/images/movies_shorts/frozen.jpeg" alt="">
+                </div>
+                <h2 class="subtitulo">Frozen</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <div class="container-imagem">
+                    <img src="src/images/movies_shorts/frozensa.jpeg" alt="">
+                </div>
+                <h2 class="subtitulo">Frozen (Edição cante junto)</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <div class="container-imagem">
+                    <img src="src/images/movies_shorts/shortscollection.jpeg" alt="">
+                </div>
+                <h2 class="subtitulo">Coleção de shorts do estúdio Walt Disney Animation</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <div class="container-imagem">
+                    <img src="src/images/movies_shorts/olafsfrozenadventure.jpeg" alt="">
+                </div>
+                <h2 class="subtitulo">A aventura de Olaf</h2>
+            </div>
+            <div class="filmes_e_curtas__cartoes__cartao">
+                <div class="container-imagem">
+                    <img src="src/images/movies_shorts/frozen2.jpeg" alt="">
+                </div>
+                <h2 class="subtitulo">Frozen 2</h2>
+            </div>
+        </div>
+    </section>
+    <section class="mais_frozen contentor" id="mais_frozen">
+        <h1 class="titulo">Mais Frozen</h1>
+        <div class="mais_frozen__cartoes">
+            <div class="mais_frozen__cartoes__cartao">
+                <div class="mais_frozen__cartoes__cartao__cabeca">
                     <img src="src/images/mais/resort1.jpeg" alt="">
-                    <h2 class="subtitulo">Resort Walt Disney World</h2>
+                </div>
+                <div class="mais_frozen__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">Resort <i>Walt Disney World</i></h2>
                     <p class="texto">
                         Encontre diversão com Frozen o ano todo!
                     </p>
                     <a href="#">Saiba mais</a>
                 </div>
-                <div class="mais_frozen__cartoes__cartao">
+            </div>
+            <div class="mais_frozen__cartoes__cartao">
+                <div class="mais_frozen__cartoes__cartao__cabeca">
                     <img src="src/images/mais/noruega.jpeg" alt="">
-                    <h2 class="subtitulo">Cruseiro Disney</h2>
+                </div>
+                <div class="mais_frozen__cartoes__cartao__corpo">
+                    <h2 class="subtitulo"><i>Cruseiro Disney</i></h2>
                     <p class="texto">
                         Partiu para noruega!
                     </p>
                     <a href="#">Saiba mais</a>
                 </div>
-                <div class="mais_frozen__cartoes__cartao">
+            </div>
+            <div class="mais_frozen__cartoes__cartao">
+                <div class="mais_frozen__cartoes__cartao__cabeca">
                     <img src="src/images/mais/resort2.jpeg" alt="">
-                    <h2 class="subtitulo">Resort Disneyland</h2>
+                </div>
+                <div class="mais_frozen__cartoes__cartao__corpo">
+                    <h2 class="subtitulo">Resort <i>Disneyland</i></h2>
                     <p class="texto">
                         Muitas emoções congeladas esperam por você!
                     </p>
                     <a href="#">Saiba mais</a>
                 </div>
-                <div class="mais_frozen__cartoes__cartao">
+            </div>
+            <div class="mais_frozen__cartoes__cartao">
+                <div class="mais_frozen__cartoes__cartao__cabeca">
                     <img src="src/images/mais/dinseyonice.jpeg" alt="">
-                    <h2 class="subtitulo">Disney no gelo</h2>
+                </div>
+                <div class="mais_frozen__cartoes__cartao__corpo">
+                    <h2 class="subtitulo"><i>Disney no gelo</i></h2>
                     <p class="texto">
                         Entre na corrida para encontrar Elsa e acabar com o inverno eterno.
                     </p>
                     <a href="#">Saiba mais</a>
                 </div>
             </div>
-        </section>
-        <div class="social contentor" id="social">
-            <ul class="social__links">
-                <li class="social__links__link"><img src="src/images/facebook.png" alt=""></li>
-                <li class="social__links__link"><img src="src/images/instagram.png" alt=""></li>
-                <li class="social__links__link"><img src="src/images/youtube.png" alt=""></li>
-            </ul>
         </div>
+    </section>
+    <div class="social contentor" id="social">
+        <ul class="social__links">
+            <li class="social__links__link"><img src="src/images/facebook.png" alt=""></li>
+            <li class="social__links__link"><img src="src/images/instagram.png" alt=""></li>
+            <li class="social__links__link"><img src="src/images/youtube.png" alt=""></li>
+        </ul>
     </div>
-    <div class="rodape contentor" id="rodape">
+    <div class="rodape" id="rodape">
         <div class="rodape__logo">
             <img src="src/images/nav/disney_logo_dark@2x-45d70f7dd57b.png" alt="">
         </div>
         <ul class="rodape__sobre">
-            <li class="rodape__sobre__item">Sobre Disney</li>
-            <li class="rodape__sobre__item">Disney ajuda</li>
-            <li class="rodape__sobre__item">Carreiras</li>
-            <li class="rodape__sobre__item">Contato</li>
-            <li class="rodape__sobre__item">Anuncie com a gente</li>
-            <li class="rodape__sobre__item">Cartão Visa Premier Disney</li>
+            <li class="rodape__sobre__item"><a href="#">Sobre Disney</a></li>
+            <li class="rodape__sobre__item"><a href="#">Disney ajuda</a></li>
+            <li class="rodape__sobre__item"><a href="#">Carreiras</a></li>
+            <li class="rodape__sobre__item"><a href="#">Contato</a></li>
+            <li class="rodape__sobre__item"><a href="#">Anuncie com a gente</a></li>
+            <li class="rodape__sobre__item"><a href="#">Cartão Visa Premier Disney</a></li>
         </ul>
         <ul class="rodape__legais">
-            <li class="rodape__legais__item">Termos de uso</li>
-            <li class="rodape__legais__item">Informações adicionais de conteúdo</li>
-            <li class="rodape__legais__item">Politica de privacidade</li>
-            <li class="rodape__legais__item">Seus direitos do Estado Americano</li>
-            <li class="rodape__legais__item">Politica de privacidade de crianças online</li>
-            <li class="rodape__legais__item">Não venda nem compartilhe meus dados pessoais</li>
-            <li class="rodape__legais__item">Anúncios baseados em interesses</li>
+            <li class="rodape__legais__item"><a href="#">Termos de uso</a></li>
+            <li class="rodape__legais__item"><a href="#">Informações adicionais de conteúdo</a></li>
+            <li class="rodape__legais__item"><a href="#">Politica de privacidade</a></li>
+            <li class="rodape__legais__item"><a href="#">Seus direitos do Estado Americano</a></li>
+            <li class="rodape__legais__item"><a href="#">Politica de privacidade de crianças online</a></li>
+            <li class="rodape__legais__item"><a href="#">Não venda nem compartilhe meus dados pessoais</a></li>
+            <li class="rodape__legais__item"><a href="#">Anúncios baseados em interesses</a></li>
         </ul>
         <div class="rodape__copyright">
-            <p>Disney, todos os direitos reservados, Disney Entreterimento</p>
+            <p>© Disney, todos os direitos reservados, Disney Entreterimento</p>
         </div>
     </div>
     <script src="src/main.js"></script>

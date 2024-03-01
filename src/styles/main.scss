@@ -18,6 +18,11 @@
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .slider-icon {
     display: inline-flex;
     background-color: #FFF;
@@ -58,6 +63,6 @@
     display: none;
 }
 
-.div-scroll-spy {
+section, .social {
     background-color: variaveis.$corPrimaria;
 }

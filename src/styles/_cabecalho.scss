@@ -31,10 +31,8 @@
                 text-decoration: none;
                 text-transform: uppercase;
                 font-weight: bold;
-
-                &:hover {
-                    color: #000;
-                }
+                padding: 7px;
+                border-radius: 5px;
             }
         }
     }
@@ -73,6 +71,7 @@
     }
 }
 
-.nav-pills .nav-link.active {
+.active {
     background-color: black;
+    color: #fff;
 }
