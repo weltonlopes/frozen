@@ -11,6 +11,15 @@
     align-items: center;
     z-index: 1;
 
+    .hamburguer {
+        display: none;
+        width: 40px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
     img {
         max-width: 94px;
         margin-left: 20px;
@@ -53,7 +62,8 @@
             border-bottom: 1px solid black;
             border-radius: 5px 0 0 5px;
         }
-        button {
+
+        &__button {
             height: 40px;
             background-color: #fff;
             border: none;
@@ -68,6 +78,42 @@
                 margin: 0 auto;
             }
         }
+
+        &__button_mobile {
+            display: none;
+            background-color: transparent;
+            border: none;
+            height: 40px;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+    
+    @media (max-width: 768px){
+        padding: 10px 0;
+
+        .hamburguer {
+            display: block;
+        }
+
+        &__nav {
+            display: none;
+        }
+
+        &__procurar {
+            input {
+                display: none;
+            }
+            &__button {
+                display: none;
+            }
+            &__button_mobile {
+                display: block;
+            }
+        }
+        
     }
 }
 

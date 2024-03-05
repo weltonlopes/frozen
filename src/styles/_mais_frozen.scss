@@ -5,6 +5,10 @@
         column-gap: 20px;
         text-align: center;
 
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
         &__cartao {
             max-width: 400px;
 
@@ -21,6 +25,7 @@
                     color: #000;
                     text-transform: uppercase;
                     font-weight: bold;
+                    text-decoration: underline;
                 }
             }
 

@@ -57,7 +57,6 @@ itemsSlider.forEach((itemSlider, index) => {
 
 window.addEventListener('scroll', () => {
     const posicaoAtual = window.scrollY;
-    console.log(posicaoAtual);    
 
     if(posicaoAtual >= 0){
         removerActive();

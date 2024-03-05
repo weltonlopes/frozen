@@ -7,15 +7,27 @@
     font-size: 1.87em;
     text-align: center;
     padding: 30px;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 .subtitulo {
     font-size: 1.25em;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 .texto {
     font-size: 1em;
     color: #000;
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
 }
 
 .texto-branco {

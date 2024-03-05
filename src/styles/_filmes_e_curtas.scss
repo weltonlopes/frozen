@@ -2,10 +2,21 @@
     &__cartoes {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
         
         &__cartao {
             max-width: 300px;
             margin-right: 24px;
+
+            @media (max-width: 768px) {
+                margin: 0;
+                text-align: center;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }           
             
         }
     }
@@ -14,5 +25,9 @@
         margin: 0;
         margin-bottom: 10px;
         border-radius: 4px;
+
+        @media (max-width: 768px) {
+            margin: 10px auto;
+        }
     }
 }

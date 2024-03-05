@@ -10,7 +10,7 @@ function styles() {
 }
 
 function scripts(){
-    return gulp.src('./src/scripts/*.js')
+    return gulp.src('./src/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'));
 }

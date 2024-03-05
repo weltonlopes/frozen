@@ -8,6 +8,10 @@ body {
 
 .contentor {
     padding: 40px 80px;
+
+    @media (max-width: 768px) {
+        padding: 20px 0;
+    }
 }
 
 .container-imagem {
